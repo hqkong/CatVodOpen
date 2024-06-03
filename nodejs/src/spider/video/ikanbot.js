@@ -20,7 +20,7 @@ async function request(reqUrl, agentSp) {
         method: 'get',
         headers: {
             'User-Agent': agentSp || UA,
-            'referer': url
+          //  'referer': url
         },
     });
     return res.data;
