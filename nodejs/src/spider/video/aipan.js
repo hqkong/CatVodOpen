@@ -11,7 +11,7 @@ async function requestRaw(reqUrl, headers, redirect) {
             headers: headers || {
                 'User-Agent': ua,
                 'Referer': siteUrl,            
-                'Cookie':'_bid=1f5e4b336160d04ee4bcdb00c959059f; _egg=194651d939b64f94839510f245dce130e'
+               
             },
             validateStatus: status => status >= 200 && status < 400,
             maxRedirects: redirect,
